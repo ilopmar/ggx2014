@@ -51,6 +51,7 @@ grails.project.dependency.resolution = {
 
         compile 'org.springframework.integration:spring-integration-core:4.0.5.RELEASE'
         compile 'org.springframework.integration:spring-integration-file:4.0.5.RELEASE'
+        compile 'org.springframework.integration:spring-integration-xmpp:4.0.5.RELEASE'
 
         compile 'org.im4java:im4java:1.4.0'
     }

@@ -121,4 +121,16 @@ log4j.main = {
 
 }
 
-ggx.photos.webpath = "/home/ivan/workspaces/ggx2014/web-app/photos"
+ggx {
+    photos.webpath = "/home/ivan/workspaces/ggx2014/web-app/photos"
+
+    xmpp {
+        user = "MY-USER-ACCOUNT"
+        password = "MY-PASSWORD"
+        host = "XMPP-SERVER-IP" // talk.google.com
+        service = "MyApp"
+        port = 5222
+        friend = "MY-FRIEND-ACCOUNT"
+    }
+}
+
